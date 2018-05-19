@@ -1,0 +1,4 @@
+<div class="row">
+  <input type="text" class="form-control" [(ngModel)]="task">
+  <button class="btn btn-primary" [disabled]="task === ''" (click)=addTask(task)>Add</button>
+</div>
